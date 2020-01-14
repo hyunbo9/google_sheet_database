@@ -63,12 +63,15 @@ pyqt를 이용해서 GUI를 만들고 구글 시트와 연동시켰습니다.
   
 - ex 1) 데이터 index 조회 후 해당 index의 data를 수정하는 경우. 조회와 수정 사이에 다른 요청이 들어와 data의 index를 변동 시킬 수 있음. 
 
-        ( If you modify the data of the index after inquiring the data index. Other requests are received between lookup and modification, which can cause the index of data to fluctuate. )
+( If you modify the data of the index after inquiring the data index. Other requests are received between lookup and modification, which can cause the index of data to fluctuate. )
         
-        하지만, 아주 작은 확률이기도 하고 구글 시트는 자동 백업 기능을 지원하기 때문에 소규모 영업에 이용하기에는 무리없음.
+ 하지만, 아주 작은 확률이기도 하고 구글 시트는 자동 백업 기능을 지원하기 때문에 소규모 영업에 이용하기에는 무리없음.
         
-        ( However, it’s also a very small probability and Google Seats can support automatic backup, so it’s not too much for small sales. )
-
+( However, it’s also a very small probability and Google Seats can support automatic backup, so it’s not too much for small sales. )
+ 
+ 
+ ----------------------
+ 
  
  확실한 안전성을 위해서는 AWS나 google cloud에서 database를 사용하는 것이 좋습니다. 
  다만 스타트업이나, 영업량이 많지 않은 회사에서는 google sheet를 DB로 쓰는 것도 좋은 방법입니다.
