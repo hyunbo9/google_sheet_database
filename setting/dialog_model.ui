@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1744</width>
+    <height>886</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="model_append">
+   <property name="geometry">
+    <rect>
+     <x>1200</x>
+     <y>800</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>추  가</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>70</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>정수기</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>70</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>공기청정기</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>70</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>기타</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="valve_token">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>260</y>
+     <width>331</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>조리수 벨브 설치 (SK, 교원, 쿠쿠의 경우 1000원추가)</string>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="treeWidget_1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>281</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
+   <property name="selectionMode">
+    <enum>QAbstractItemView::MultiSelection</enum>
+   </property>
+   <property name="uniformRowHeights">
+    <bool>false</bool>
+   </property>
+   <attribute name="headerVisible">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="headerCascadingSectionResizes">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="headerDefaultSectionSize">
+    <number>180</number>
+   </attribute>
+   <attribute name="headerMinimumSectionSize">
+    <number>5</number>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>모델명</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>렌탈료</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTreeWidget" name="treeWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>100</y>
+     <width>281</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="selectionMode">
+    <enum>QAbstractItemView::MultiSelection</enum>
+   </property>
+   <attribute name="headerDefaultSectionSize">
+    <number>180</number>
+   </attribute>
+   <attribute name="headerMinimumSectionSize">
+    <number>5</number>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>모델명</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>렌탈료</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTreeWidget" name="treeWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>100</y>
+     <width>361</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="sizeAdjustPolicy">
+    <enum>QAbstractScrollArea::AdjustToContents</enum>
+   </property>
+   <property name="selectionMode">
+    <enum>QAbstractItemView::MultiSelection</enum>
+   </property>
+   <property name="allColumnsShowFocus">
+    <bool>true</bool>
+   </property>
+   <attribute name="headerCascadingSectionResizes">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="headerDefaultSectionSize">
+    <number>150</number>
+   </attribute>
+   <attribute name="headerMinimumSectionSize">
+    <number>5</number>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>제품군</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>모델명</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>렌탈료</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QCalendarWidget" name="win_request_date">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>350</y>
+     <width>331</width>
+     <height>221</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>320</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>설치 요청일</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>800</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>등록 대기</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>예약</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>등록 완료</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>취소</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>설치 보류</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>설치 완료</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>카톡 대기</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>80</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>계약자</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="win_name">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>100</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="win_phone_number">
+   <property name="geometry">
+    <rect>
+     <x>1190</x>
+     <y>100</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>1260</x>
+     <y>80</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>연락처</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="win_address">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>160</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>140</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>설치 주소</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="win_color">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>220</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>200</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>색상</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="win_birth_date">
+   <property name="geometry">
+    <rect>
+     <x>1230</x>
+     <y>220</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>1280</x>
+     <y>200</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>생년월일</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="win_address_token">
+   <property name="geometry">
+    <rect>
+     <x>1260</x>
+     <y>140</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>사은품 주소 동일</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="QLabel_brand_label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="win_card_text">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>689</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="win_card_account">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>689</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="win_validity">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>750</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>660</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>카드사/은행명</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>1190</x>
+     <y>660</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>카드 번호/계좌번호</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>730</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>유효 기간/예금주</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="win_radio_card">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>630</y>
+     <width>90</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>카드</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="win_radio_account">
+   <property name="geometry">
+    <rect>
+     <x>1240</x>
+     <y>630</y>
+     <width>90</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>계좌 번호</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>630</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>결제방법</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="account_token">
+   <property name="geometry">
+    <rect>
+     <x>1260</x>
+     <y>760</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>송금 계좌 동일</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>1410</x>
+     <y>100</y>
+     <width>271</width>
+     <height>741</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="win_model_search_text">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>20</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="model_search_btn">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>20</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>모델 검색</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="init_btn">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>20</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>초기화</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>300</y>
+     <width>381</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>595</y>
+     <width>391</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="old_purifier_token">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>280</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>폐 정수기 수거 여부</string>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cross_package_token">
+   <property name="geometry">
+    <rect>
+     <x>1200</x>
+     <y>280</y>
+     <width>201</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>크로스 패키지(LG만 누르세요)</string>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

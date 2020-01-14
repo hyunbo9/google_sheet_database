@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1559</width>
+    <height>921</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <widget class="QPushButton" name="win_gift_append">
+   <property name="geometry">
+    <rect>
+     <x>1380</x>
+     <y>10</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>추  가</string>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="gift1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>461</width>
+     <height>761</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="selectionMode">
+    <enum>QAbstractItemView::MultiSelection</enum>
+   </property>
+   <column>
+    <property name="text">
+     <string>종류</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>사은품</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>단가</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTreeWidget" name="gift2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>70</y>
+     <width>461</width>
+     <height>761</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="selectionMode">
+    <enum>QAbstractItemView::MultiSelection</enum>
+   </property>
+   <column>
+    <property name="text">
+     <string>종류</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>사은품</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>단가</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTreeWidget" name="gift3">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>70</y>
+     <width>461</width>
+     <height>761</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="selectionMode">
+    <enum>QAbstractItemView::MultiSelection</enum>
+   </property>
+   <column>
+    <property name="text">
+     <string>종류</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>사은품</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>단가</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLineEdit" name="win_find_text">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="win_find_btn">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>10</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>검색</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="win_init_btn">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>10</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>초기화</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
