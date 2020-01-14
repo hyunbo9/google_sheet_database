@@ -1,6 +1,8 @@
-# google_sheet_using_database
+# Google sheet DataBase
 
-# Lib :
+-------------------
+
+Lib :
 - gspread
 - pyqt5
 - numpy
