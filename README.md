@@ -73,10 +73,12 @@ pyqt를 이용해서 GUI를 만들고 구글 시트와 연동시켰습니다.
  ----------------------
  
  
- 확실한 안전성을 위해서는 AWS나 google cloud에서 database를 사용하는 것이 좋습니다. 
+ 확실한 안전성을 위해서는 AWS나 google cloud에서 database를 사용하는 것을 추천합니다.
+ 
  다만 스타트업이나, 영업량이 많지 않은 회사에서는 google sheet를 DB로 쓰는 것도 좋은 방법입니다.
  
 ( For certain safety reasons, we recommend using database on AWS or google cloud.
+
 However, it is also a good idea to use google sheet as DB for start-ups and companies that do not have a lot of sales.)
  
  
