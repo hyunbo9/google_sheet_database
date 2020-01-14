@@ -8,6 +8,7 @@
 --------------------
 
 google sheet를 Database로 활용한 코드 입니다.
+
 (This code utilizes google sheet as database.)
 
 pyqt를 이용해서 GUI를 만들고 구글 시트와 연동시켰습니다.
