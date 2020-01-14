@@ -27,7 +27,7 @@ pyqt를 이용해서 GUI를 만들고 구글 시트와 연동시켰습니다.
 
 - 평균적으로 7-10명 동시 사용. (약 1년간 문제없이 사용)
 
-  (On average, 7-10 people are used simultaneously)
+  (On average, 7-10 people are used simultaneously. I've been using it without any problems for over a year.)
   
 -------------------------
 사용법 (Usage)
