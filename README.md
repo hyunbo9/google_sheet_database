@@ -8,20 +8,28 @@
 --------------------
 
 google sheet를 Database로 활용한 코드 입니다.
+(This code utilizes google sheet as database.)
 
 pyqt를 이용해서 GUI를 만들고 구글 시트와 연동시켰습니다.
-
+(We created the GUI using pyqt and then we linked it to the Google sheet.)
 --------------------
 
 
-사용 환경 및 사용법: 
+사용 환경 (Usage Environment): 
 - 하루에 50 ~ 100건의 주문. 각 주문마다 약 30종류의 데이터. 
+  (50 to 100 orders a day. About 30 kinds of data for each order.)
 
 - 평균적으로 7-10명 동시 사용. (약 1년간 문제없이 사용)
-
+  (On average, 7-10 people are used simultaneously)
+  
+-------------------------
+사용법 (Usage)
+  
 - 주문을 등록하고, 고객들의 요구 및 회사 내부 사정에 따라 주문 데이터를 지속적으로 수정.
+  (Register your order and continue to amend your order data based on customer needs and company internal conditions.)
 
 - 등록한 시간을 10^(-6)초 까지 측정하여 key 값으로 사용
+  (Measure the registered time up to 10^ (-6) seconds and use it as the key value.)
 
 
 --------------------
