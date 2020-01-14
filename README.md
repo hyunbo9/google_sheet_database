@@ -43,13 +43,13 @@ pyqt를 이용해서 GUI를 만들고 구글 시트와 연동시켰습니다.
 
 클라우드 서비스 대신 구글 시트를 데이터베이스로 사용했을 때의 장점
 
-1. 무제한 무료. 
-2. 클라우드 서비스 못지 않은 서버의 안정성
-3. 코드 짜기가 쉬움
-4. 엑셀의 유용함을 그대로 이용할 수 있음.
-5. 다수의 동시 작업 가능
-6. 24시간 사용 가능.
-7. 구글 시트는 항상 데이터를 백업 시켜준다.
+1. 무제한 무료. (Free!)
+2. 클라우드 서비스 못지 않은 서버의 안정성  (Reliability of servers no less than cloud services)
+3. 코드 짜기가 쉬움 ( easy coding )
+4. 엑셀의 유용함을 그대로 이용할 수 있음. ( The usefulness of Excel is available )
+5. 다수의 동시 작업 가능 ( Multiple concurrent operations )
+6. 24시간 사용 가능. ( Available 24 hours )
+7. 구글 시트는 항상 데이터를 백업 시켜준다. ( Google sheets always back up your data )
 
 
 --------------------
@@ -57,6 +57,10 @@ pyqt를 이용해서 GUI를 만들고 구글 시트와 연동시켰습니다.
 단점:
 
 1. 클라우드 서비스보다 데이터의 안전성이 떨어질 수 있음.
+
+   (Data may be less secure than cloud services.)
+   
+   
 - ex 1) 데이터 index 조회 후 해당 index의 data를 수정하는 경우. 조회와 수정 사이에 다른 요청이 들어와 data의 index를 변동 시킬 수 있음. 
       -> 아주 작은 확률이기도 하고 구글 시트는 자동 백업 기능을 지원하기 때문에 소규모 영업에 이용하기에는 무리없음.
 
