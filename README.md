@@ -89,5 +89,7 @@ However, it is also a good idea to use google sheet as DB for start-ups and comp
 --------------------------
 
 ![2020-01-14 16;57;52](https://user-images.githubusercontent.com/26562858/72328687-b719d680-36f6-11ea-8fe8-110b15f3c97b.PNG)
+
+
 ![2020-01-14 17;00;00](https://user-images.githubusercontent.com/26562858/72328688-b719d680-36f6-11ea-802b-cbc81721ca41.PNG)
 
