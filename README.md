@@ -21,9 +21,9 @@ pyqt를 이용해서 GUI를 만들고 구글 시트와 연동시켰습니다.
 
 
 사용 환경 (Usage Environment): 
-- 하루에 50 ~ 100건의 주문. 각 주문마다 약 30종류의 데이터. 
+- 하루에 50 ~ 100건의 주문. 각 주문마다 약 30종류의 데이터. 하루 평균 200번의 수정 요청. 
 
-  (50 to 100 orders a day. About 30 kinds of data for each order.)
+  (50 to 100 orders a day. About 30 kinds of data for each order. an average of 200 corrections per day.)
 
 - 평균적으로 7-10명 동시 사용. (약 1년간 문제없이 사용)
 
