@@ -70,7 +70,7 @@ pyqt를 이용해서 GUI를 만들고 구글 시트와 연동시켰습니다.
         
  하지만, 아주 작은 확률이기도 하고 구글 시트는 자동 백업 기능을 지원하기 때문에 소규모 영업에 이용하기에는 무리없음.
         
-( However, it’s also a very small probability and Google Seats can support automatic backup, so it’s not too much for small sales. )
+( However, it’s also a very small probability and Google Sheet can support automatic backup, so it’s not too much for small sales. )
  
  
  ----------------------
