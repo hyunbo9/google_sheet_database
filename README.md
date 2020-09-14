@@ -48,11 +48,10 @@ pyqt를 이용해서 GUI를 만들고 구글 시트와 연동시켰습니다.
 
 1. 무제한 무료. (Free!)
 2. 클라우드 서비스 못지 않은 서버의 안정성  (Reliability of servers no less than cloud services)
-3. 코드 짜기가 쉬움 ( easy coding )
-4. 엑셀의 유용함을 그대로 이용할 수 있음. ( The usefulness of Excel is available )
-5. 다수의 동시 작업 가능 ( Multiple concurrent operations )
-6. 24시간 사용 가능. ( Available 24 hours )
-7. 구글 시트는 항상 데이터를 백업 시켜준다. ( Google sheets always back up your data )
+3. 엑셀의 유용함을 그대로 이용할 수 있음. ( The usefulness of Excel is available )
+4. 다수의 동시 작업 가능 ( Multiple concurrent operations )
+5. 24시간 사용 가능. ( Available 24 hours )
+6. 구글 시트는 항상 데이터를 백업 시켜준다. ( Google sheets always back up your data )
 
 
 --------------------
